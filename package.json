@@ -1,0 +1,17 @@
+{
+  "name": "youtube2mp3",
+  "version": "1.0.0",
+  "description": "A youtube to mp3 converter ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "German Gamboa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "ytdl-core": "^0.20.2"
+  }
+}
