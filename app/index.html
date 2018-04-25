@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
 </head>
-<body>
-    <h1>German is the coolest</h1>
-    <form>
-        <input type="text" name="" id="">
-        <button type="submit">Click Me</button>
-     </form>
-    
-     <video width="320" height="240" controls>
-            <source src="./video.mp4" type="video/mp4">
-    
-          Your browser does not support the video tag.
-          </video>
 
-    <a href="about.html">This works!</a>
-    <a href="./video.mp4" download>dl</a>
+<body>
+
+    <div class="container p-0">
+        <div class="jumbotron">
+            <h1 class="text-center">YouTube Downloader</h1>
+        </div>
+
+        <div class="row">
+            <form id="url-form" class="col-6 mx-auto">
+                <div class="form-group">
+                    <label for="url">Video URL:</label>
+                    <input type="text" class="form-control" id="url" placeholder="Insert YouTube URL here...">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+        </div>
+
+        <div class="row border border-secondary mt-5" style="height: 5em">
+
+            <video class="col-6 p-0">
+                <source src="video.mp4" type="video/mp4">
+
+            </video>
+
+            <div class="col-6 p-0">
+                <a href="">Download Video!</a>
+            </div>
+        </div>
+    </div>
+
+
     <script src="js/main.js"></script>
 </body>
+
 </html>
