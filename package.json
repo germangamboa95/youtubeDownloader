@@ -2,7 +2,7 @@
   "name": "youtube2mp3",
   "version": "1.0.0",
   "description": "A youtube to mp3 converter ",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
     "start": "node ./server/server.js"
   },
